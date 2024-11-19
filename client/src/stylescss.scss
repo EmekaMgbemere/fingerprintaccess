@@ -1,0 +1,110 @@
+.apphere{
+  font-size: 100px;
+}
+
+.middle{
+  height: 81vh;  
+  width: 100%;
+  color: white;
+}
+
+.outpadding{
+  background-color: #000;
+  height: 100dvh;
+  padding: 70px;
+}
+
+.outpaddingout{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.midright{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.midpic{
+  background-image: url('../src//components//pics/regpic.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+.leftloginpic{
+  background-image: url('../src//components//pics/car2.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+.middle label{
+  font-size: small;
+  border-radius: 1%;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.middle ::placeholder{
+  font-size: small;
+  padding: 10px;
+}
+
+.middle input{
+  margin:0 0 20px 0;
+}
+
+.uibg{
+  background-color: black;
+  padding: 3%;
+}
+
+.uibg1{
+  background-color: #767B83;
+  border-radius: 5%;
+  padding: 2%;
+}
+
+
+.ui1{
+  background-color: #222F45;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  border-radius: 5%;
+  color: white
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Rammetto+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+.ui11{
+background-color: #314C69;
+  margin: 15px;
+  width: 200px;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100px;
+  font-style: normal;
+  font-size: 25px;
+  text-align: center;
+  border-radius: 5%;
+  padding: 10px;
+}
+
+.ui11 img{
+  width: 100%;
+  margin: 10px 0;
+}
+
+
+@media (max-width: 768px){
+  .midpic, .leftloginpic{
+    display: none;
+  }
+  
+}
